@@ -4,9 +4,13 @@
     <data-source source="LOCAL" name="SunWay" uuid="3cf660c4-30da-43aa-a79f-102da2c590f3">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://46.183.163.132:5780/sunway_base</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="currentSchema" value="api_pdb_39, site_sunway" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
