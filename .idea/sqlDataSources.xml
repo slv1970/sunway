@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="f11cffac-e628-4b82-a546-115ab775c4b4" name="SunWay Mapping">
+      <data-sources db="3cf660c4-30da-43aa-a79f-102da2c590f3" ddl="4c4f8bc9-5770-45fa-b2d1-92d1bce1f3f2" />
+      <scope>
+        <node kind="database" qname="sunway_base">
+          <node kind="schema">
+            <name qname="api_pdb" />
+            <name qname="api_pdb_39" />
+            <name qname="site_sunway" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>
